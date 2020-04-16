@@ -1,0 +1,36 @@
+/*bloque de código*/
+pre {
+    background-color: #212121;
+    color: #eee;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    }
+pre code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    }
+    
+    /*BARRA SOCIAL*/
+
+#socbar ul {
+
+    list-style-type: none;
+    /*borrar viñetas de la lista*/
+    text-align: center;
+    /*centrar iconos*/
+}
+
+#socbar li {
+    display: inline;
+    /*Disponer elementos uno detrás de otro en línea*/
+    margin: 0px 20px 0px 0px;
+    /*Dejar espacios entre iconos*/
+}
+
+#socbar a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+}
